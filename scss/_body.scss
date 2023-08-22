@@ -1,0 +1,56 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #045de9;
+    background-image: url(../Imagenes/turtle\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+ .main{  
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    gap: 0px 1px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "parrafo aside"
+      "carrousel carrousel"
+      
+  }
+  .main2{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    
+}
+  
+.pictures { grid-area: carrousel; }
+.parrafo { grid-area: parrafo; } 
+
+.aside { grid-area: aside; }
+  
+.parrafo{
+    background-color:rgb(202, 239, 239);
+    margin : 30px;
+    padding: 10px;
+    width: 60%;
+    opacity: .8;
+    }
+ .parrafo2{
+    background-color:rgb(202, 239, 239);
+    margin : 30px;
+    padding: 10px;
+    opacity: .8;
+   width:20px;
+  word-wrap: break-word;
+  text-align:center;
+    }
+    .video{
+    width: 40%;
+    padding: 5rem;
+    margin: 30px;
+}

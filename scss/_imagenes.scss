@@ -1,0 +1,53 @@
+.pictures{
+    justify-content: baseline;
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 50px;
+    
+}
+
+.galeria{
+    text-align: center;
+    margin-left: auto;
+}
+.galleryimages{
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.image1{
+    opacity:-10;
+    &:hover{
+        opacity: .8;
+       }
+    }
+.image2{
+    opacity:-10;
+    &:hover{
+        opacity: .8;
+       }
+
+}
+.image3{
+    opacity:-10;
+    &:hover{
+        opacity: .8;
+       }
+
+}
+.image4{
+    opacity:-10;
+    &:hover{
+        opacity: .8;
+       }
+
+}
+.image4{
+    opacity:-10;
+    &:hover{
+        opacity: .8;
+       }
+
+}
