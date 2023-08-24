@@ -1,13 +1,14 @@
 header{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
 
 .logo{
-    display: flex;
+    
     padding: 40px;
     margin-top: 30px;
     margin-left: 60px;
@@ -16,17 +17,20 @@ header{
 .menu{
     display: flex;
     justify-content: flex-end;
-    list-style: none;
+     list-style: none;
     margin:  auto;
     padding: auto;
     width: 100%;
+    justify-content: space-between;
  
- .menu li{
+    li{
     display: inline-block;
+   
+    
     text-align: left;
     padding: 10px;
     margin: 10px;
- .menu li a{
+    a{
     padding: 10px;
     margin: 10px;
     text-decoration: none;
@@ -35,7 +39,7 @@ header{
     color: yellow;
     background-color: #045de9;
     border-radius: 40%;
-        text-decoration: underline;
+    text-decoration: underline;
     }
  }
 }

@@ -2,17 +2,33 @@ footer{
      background-color: #2a2a72;
      background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
      height: 100px;
-     text-align: center;
+     margin: auto;
      width: 100%;
+     text-align: center;
+     
 }
+.footer1{
+    bottom: 0%;
+    position: absolute;
+}
+h3{
+     text-decoration: underline;
+     animation-duration: 4s;
+    animation-name: aparece;
+    animation-iteration-count: infinite;
+ }
+ @keyframes aparece{
+ 0%{
+    opacity: 0;
+}
+50%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+    
+}
+ }    
 
-.footer1{ 
-     background-color: #2a2a72;
-     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-     height: 100px;
-     position: absolute;
-     bottom: 0;
-     text-align: center;
-     width: 100%;
-   
-}
+
+ 

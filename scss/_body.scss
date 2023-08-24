@@ -1,38 +1,34 @@
+*{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-decoration: underline;
+     margin: 50px;
+     text-align: center;
+}
+h2{
+    text-align: center;
+}
+
 body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #045de9;
-    background-image: url(../Imagenes/turtle\ \(1\).jpg);
+    background-image: url(../imagenes/tortuga.jpg);
     background-size: cover;
     background-attachment: fixed;
-    }
- .main{  
+    
+.main{  
     height: 100%;
     width: 100%;
     margin: 5px;
     margin-top: 1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr;
-    gap: 0px 1px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "parrafo aside"
-      "carrousel carrousel"
-      
-  }
-  .main2{
-    height: 100%;
-    width: 100%;
-    margin: 5px;
-    
 }
-  
-.pictures { grid-area: carrousel; }
-.parrafo { grid-area: parrafo; } 
-
-.aside { grid-area: aside; }
-  
+    
+ }
 .parrafo{
     background-color:rgb(202, 239, 239);
     margin : 30px;
@@ -40,17 +36,13 @@ body{
     width: 60%;
     opacity: .8;
     }
- .parrafo2{
-    background-color:rgb(202, 239, 239);
-    margin : 30px;
-    padding: 10px;
-    opacity: .8;
-   width:20px;
-  word-wrap: break-word;
-  text-align:center;
-    }
-    .video{
-    width: 40%;
+.video{
+    width: 30%;
     padding: 5rem;
     margin: 30px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
 }
