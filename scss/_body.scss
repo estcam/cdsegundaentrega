@@ -11,6 +11,8 @@ h1{
 }
 h2{
     text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
 }
 
 body{
@@ -24,25 +26,67 @@ body{
 .main{  
     height: 100%;
     width: 100%;
-    margin: 5px;
+    margin: auto;
     margin-top: 1%;
 }
     
  }
 .parrafo{
     background-color:rgb(202, 239, 239);
-    margin : 30px;
+    margin : auto;
     padding: 10px;
-    width: 60%;
+    width: 47%;
     opacity: .8;
-    }
-.video{
+    text-align: center;
+}
+.parrafo2{
+    background-color:rgb(202, 239, 239);
+    margin : auto;
+    padding: 10px;
     width: 30%;
-    padding: 5rem;
-    margin: 30px;
+    opacity: .8;
+    text-align: center;
+ }
+.video{
+width: 50%;
+margin: auto;
+padding: 20px;
+display: flex;
+justify-content: center;
+    
 }
 
 .aboutus{
+    margin-bottom: 40px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    
+    
 }
+.card{
+    margin-right: 70px;
+}
+.aos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ani{
+    margin: 30px auto;
+    width: 30vw;
+    height: 40vh;
+    padding: 1rem;
+}
+.caja1{
+    border: rgb(202, 239, 239) solid 5px ;
+}
+.caja2{
+   border: rgb(202, 239, 239) solid 5px;
+}
+.caja3{
+    border: rgb(202, 239, 239) solid 5px;
+ }
+ .caja4{
+    border: rgb(202, 239, 239) solid 5px;
+ }

@@ -11,7 +11,9 @@ h1 {
   text-align: center; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px; }
 
 body {
   margin: auto;
@@ -23,24 +25,63 @@ body {
   body .main {
     height: 100%;
     width: 100%;
-    margin: 5px;
+    margin: auto;
     margin-top: 1%; }
 
 .parrafo {
   background-color: #caefef;
-  margin: 30px;
+  margin: auto;
   padding: 10px;
-  width: 60%;
-  opacity: .8; }
+  width: 47%;
+  opacity: .8;
+  text-align: center; }
+
+.parrafo2 {
+  background-color: #caefef;
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+  opacity: .8;
+  text-align: center; }
 
 .video {
-  width: 30%;
-  padding: 5rem;
-  margin: 30px; }
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center; }
 
 .aboutus {
+  margin-bottom: 40px;
   display: flex;
-  flex-direction: column; }
+  align-items: center; }
+
+.card {
+  margin-right: 70px; }
+
+.aos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  font-family: Arial, Helvetica, sans-serif; }
+
+.ani {
+  margin: 30px auto;
+  width: 30vw;
+  height: 40vh;
+  padding: 1rem; }
+
+.caja1 {
+  border: #caefef solid 5px; }
+
+.caja2 {
+  border: #caefef solid 5px; }
+
+.caja3 {
+  border: #caefef solid 5px; }
+
+.caja4 {
+  border: #caefef solid 5px; }
 
 header {
   width: 100%;
@@ -88,19 +129,20 @@ footer {
   background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   height: 100px;
-  margin: auto;
+  margin: 0;
   width: 100%;
   text-align: center; }
 
 .footer1 {
-  bottom: 0%;
-  position: absolute; }
+  position: absolute;
+  bottom: 0%; }
 
 h3 {
   text-decoration: underline;
   animation-duration: 4s;
   animation-name: aparece;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  text-align: center; }
 
 @keyframes aparece {
   0% {
@@ -113,12 +155,6 @@ h3 {
 .cards {
   display: flex;
   justify-items: center;
-  justify-content: space-between; }
-
-.parrafo2 {
-  background-color: #caefef;
-  opacity: .8; }
-
-.form {
-  width: 500px;
-  height: 5000px; }
+  justify-content: space-between;
+  margin-left: 40px;
+  padding-bottom: 60px; }
